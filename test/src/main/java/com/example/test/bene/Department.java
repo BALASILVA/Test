@@ -15,12 +15,11 @@ public class Department {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "departmentid")
 	private Long departmentId;
-	
+
 	@Column(name = "departmentname")
 	private String departmentName;
 
 	public Department() {
-		// TODO Auto-generated constructor stub
 	}
 
 	public Department(Long departmentId, String departmentName) {

@@ -10,8 +10,6 @@ public class Error {
 
 	public Error() {
 	}
-	
-	
 
 	public Error(int errorCode, String errorMessage) {
 		super();
@@ -19,8 +17,6 @@ public class Error {
 		this.errorMessage = errorMessage;
 		this.timpeStamp = new Date();
 	}
-
-
 
 	public int getErrorCode() {
 		return errorCode;
